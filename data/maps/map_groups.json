@@ -1165,6 +1165,7 @@
   ],
   "gMapGroup_IndoorSegfield": [
     "Segfield_ProtagonistsHouse_1F",
-    "Segfield_ProtagonistsHouse_2F"
+    "Segfield_ProtagonistsHouse_2F",
+    "Segfield_House1"
   ]
 }

@@ -1,0 +1,10 @@
+mapscripts Segfield_House1_MapScripts {}
+
+script Segfield_House1_EventScript_ExpertF {
+    lock
+    faceplayer
+    msgbox(format("A legend is passed down in this city. You wouldn't be able to imagine it these days, but centuries ago, a relentless storm haunted these fields. Then, one day, a legendary beast appeared on the very rock in our town center. It was able to stop the storm and brought life back to these lands. Today, scholars believe that this beast was actually a rare POKÉMON."))
+    applymovement(LOCALID_SEGFIELD_HOUSE1_EXPERT_F, moves(face_left))
+    waitmovement(0)
+    release
+}

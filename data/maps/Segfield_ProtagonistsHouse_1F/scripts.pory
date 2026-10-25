@@ -2,6 +2,13 @@ mapscripts Segfield_ProtagonistsHouse_1F_MapScripts {}
 
 script Segfield_ProtagonistsHouse_1F_EventScript_Mom {
     lock
-    msgbox(format("Hello, dear. You were asleep for quite a while. Feel free to eat the soup i made. It's on the stove."))
+    faceplayer
+    msgbox(format("MOM: Hello, dear. You were asleep for quite a while. Feel free to eat the soup I made. It's on the stove."))
+    applymovement(LOCALID_PROTAGONISTS_HOUSE_1F_MOM, moves(face_right))
+    waitmovement(0)
     release
+}
+
+script Segfield_ProtagonistsHouse_1F_EventScript_Stove {
+    msgbox(format("A soup made by MOM sits on the stove. Delicious!"), MSGBOX_SIGN)
 }

@@ -9355,6 +9355,17 @@
       "border_filepath": "data/layouts/Segfield_ProtagonistsHouse_2F/border.bin",
       "blockdata_filepath": "data/layouts/Segfield_ProtagonistsHouse_2F/map.bin",
       "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SEGFIELD_HOUSE1",
+      "name": "Segfield_House1_Layout",
+      "width": 10,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Segfield_House1/border.bin",
+      "blockdata_filepath": "data/layouts/Segfield_House1/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

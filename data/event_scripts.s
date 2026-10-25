@@ -1744,3 +1744,5 @@ EventScript_PalletTown_PlayersHouse_2F_TurnOnPC::
 	.include "data/maps/Segfield_ProtagonistsHouse_1F/scripts.inc"
 
 	.include "data/maps/Segfield_ProtagonistsHouse_2F/scripts.inc"
+
+	.include "data/maps/Segfield_House1/scripts.inc"
