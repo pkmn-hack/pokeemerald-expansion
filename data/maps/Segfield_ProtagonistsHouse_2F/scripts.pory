@@ -1,0 +1,26 @@
+mapscripts Segfield_ProtagonistsHouse_2F_MapScripts {}
+
+script Segfield_ProtagonistsHouse_2F_EventScript_GameCube {
+    msgbox(format("It's a Nintendo GameCube. A Game Boy Advance is connected to serve as the Controller."), MSGBOX_SIGN)
+}
+
+script Segfield_ProtagonistsHouse_2F_EventScript_Notebook {
+    msgbox(format("{PLAYER} flipped open the notebook.\pADVENTURE RULE NO. 1\nOpen the MENU with START.\pADVENTURE RULE NO. 2\nRecord your progress with SAVE.\pThe remaining pages are blank…"), MSGBOX_SIGN)
+}
+
+script Segfield_ProtagonistsHouse_2F_EventScript_PC {
+    lockall
+    setvar(VAR_0x8004, PC_LOCATION_BRENDANS_HOUSE)
+    special(DoPCTurnOnEffect)
+    playse(SE_PC_ON)
+    msgbox(gText_PlayerHouseBootPC)
+    special(BedroomPC)
+    releaseall
+}
+
+script Segfield_ProtagonistsHouse_2F_EventScript_TurnOffPlayerPC {
+    setvar(VAR_0x8004, PC_LOCATION_BRENDANS_HOUSE)
+    playse(SE_PC_OFF)
+    special(DoPCTurnOffEffect)
+    releaseall
+}

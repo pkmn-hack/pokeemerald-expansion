@@ -9323,6 +9323,38 @@
       "border_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/border.bin",
       "blockdata_filepath": "data/layouts/OneIsland_KindleRoad_EmberSpa_Frlg/map.bin",
       "layout_version": "frlg"
+    },
+    {
+      "id": "LAYOUT_SEGFIELD",
+      "name": "Segfield_Layout",
+      "width": 30,
+      "height": 22,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Petalburg",
+      "border_filepath": "data/layouts/Segfield/border.bin",
+      "blockdata_filepath": "data/layouts/Segfield/map.bin"
+    },
+    {
+      "id": "LAYOUT_SEGFIELD_PROTAGONISTS_HOUSE_1F",
+      "name": "Segfield_ProtagonistsHouse_1F_Layout",
+      "width": 11,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Segfield_ProtagonistsHouse_1F/border.bin",
+      "blockdata_filepath": "data/layouts/Segfield_ProtagonistsHouse_1F/map.bin",
+      "layout_version": "emerald"
+    },
+    {
+      "id": "LAYOUT_SEGFIELD_PROTAGONISTS_HOUSE_2F",
+      "name": "Segfield_ProtagonistsHouse_2F_Layout",
+      "width": 9,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BrendansMaysHouse",
+      "border_filepath": "data/layouts/Segfield_ProtagonistsHouse_2F/border.bin",
+      "blockdata_filepath": "data/layouts/Segfield_ProtagonistsHouse_2F/map.bin",
+      "layout_version": "emerald"
     }
   ]
 }

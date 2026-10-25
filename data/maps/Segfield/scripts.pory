@@ -1,0 +1,49 @@
+mapscripts Segfield_MapScripts {}
+
+script Segfield_EventScript_PlayerHouseSign {
+    msgbox(format("{PLAYER}'s House"), MSGBOX_SIGN)
+}
+
+script Segfield_EventScript_RivalsHouseSign {
+    msgbox(format("{RIVAL}'s House"), MSGBOX_SIGN)
+}
+
+script Segfield_EventScript_RockFormationSign {
+    msgbox(format("A rock formation in the center of Segfield. It's part of an old legend."), MSGBOX_SIGN)
+}
+
+script Segfield_EventScript_LittleGirl {
+    lock
+    faceplayer
+    msgbox(format("I'm playing hide-and-seek with my brother. Please don't tell on me."))
+    applymovement(LOCALID_LITTLE_GIRL, moves(face_up))
+    waitmovement(0)
+    release
+}
+
+script Segfield_EventScript_LittleBoy {
+    lock
+    faceplayer
+    msgbox(format("I'm looking for my sister. I'll definitely win at hide-and-seek!"))
+    release
+}
+
+script Segfield_EventScript_ExpertM {
+    lock
+    faceplayer
+    msgbox(format("My wife knows a lot about this town. If you want to know more about this rock, ask her."))
+    applymovement(LOCALID_EXPERT_M, moves(face_down))
+    waitmovement(0)
+    release
+}
+
+script Segfield_EventScript_Zigzagoon {
+    lock
+    faceplayer
+    playmoncry(SPECIES_ZIGZAGOON, CRY_MODE_NORMAL)
+    msgbox(format("ZIGZAGOON: Guguu?"))
+    waitmoncry
+    applymovement(LOCALID_ZIGZAGOON, moves(face_down))
+    waitmovement(0)
+    release
+}

@@ -1,0 +1,7 @@
+mapscripts Segfield_ProtagonistsHouse_1F_MapScripts {}
+
+script Segfield_ProtagonistsHouse_1F_EventScript_Mom {
+    lock
+    msgbox(format("Hello, dear. You were asleep for quite a while. Feel free to eat the soup i made. It's on the stove."))
+    release
+}
