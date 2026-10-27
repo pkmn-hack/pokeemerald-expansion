@@ -1,8 +1,8 @@
-# GAME_TITLE
+# pokemon-eoris
 
 <!-- TODO: One or two sentences pitching the game. -->
 
-**GAME_TITLE** is a Pokémon ROM hack for the Game Boy Advance, set in a brand-new region loosely based on Germany. The journey begins in the small town of **Segfield**.
+Pokémon Eoris is a Pokémon ROM hack for the Game Boy Advance, set in a brand-new Eoris region loosely based on Germany. The journey begins in the small town of **Segfield**.
 
 > ⚠️ **Work in progress.** The game is in early development and not yet playable from start to finish.
 
